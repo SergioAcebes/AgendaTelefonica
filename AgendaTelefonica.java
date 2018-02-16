@@ -26,10 +26,17 @@ public class AgendaTelefonica
     }
     
     /**
-     * devolver el numero de un contacto.
+     * Devolver el numero de un contacto.
      */
     public void lookupNumber(String name){
         System.out.println(agenda.get(name));
     }
     
+    /**
+     * Imprimir todos los  nombres.
+     */
+    public void printAllNames()
+    {
+        System.out.println(agenda.keySet());
+    }
 }
